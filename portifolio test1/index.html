@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Earnest's personal web development portfolio.">
+    <title>Earnest Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="#home">Earnest Portfolio</a>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-glass">
+                <h1>Welcome! My name is Earnest.</h1>
+                <p>Explore my website and learn more about my work.</p>
+                <p class="hero-caption">I am Earnest, and welcome to my website.</p>
+                <a class="button-link" href="#about">Explore my website</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I enjoy learning, building websites, and having fun along the way.</p>
+            <p>If you have a question, feel free to contact me.</p>
+            <a class="button-link" href="#contact">Contact me</a>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p>I am a beginner web developer and look forward to building websites for businesses.</p>
+
+            <div class="card-grid">
+                <article class="skill-card">
+                    <div class="image">
+                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Web design example">
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>I use HTML and CSS to create and style websites.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="image">
+                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Frontend development example">
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>I build website pages using HTML, CSS, and JavaScript.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="image">
+                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="UI and UX design example">
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>I aim to make websites clear, attractive, and easy to use.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="image">
+                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Search engine optimisation example">
+                    </div>
+                    <h3>SEO</h3>
+                    <p>I am learning how websites can become easier to find in search engines.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="image">
+                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Data analytics example">
+                    </div>
+                    <h3>Data Analytics</h3>
+                    <p>I present and analyse information using tools such as Microsoft Excel.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>My Portfolio</h2>
+            <p>Here are some examples of projects I am working on.</p>
+
+            <div class="card-grid">
+                <article class="skill-card">
+                    <div class="image">
+                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Web design project preview">
+                    </div>
+                    <h3>Web Design Project</h3>
+                    <p>A sample website designed using HTML and CSS.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="image">
+                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Frontend project preview">
+                    </div>
+                    <h3>Frontend Project</h3>
+                    <p>A responsive website built using HTML and CSS.</p>
+                </article>
+
+                <article class="skill-card">
+                    <div class="image">
+                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Data analytics project preview">
+                    </div>
+                    <h3>Data Analytics Project</h3>
+                    <p>Data presentation and analysis using Microsoft Excel.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-form">
+                <h2>Get in Touch</h2>
+                <p>Use the form below to prepare a message to send through WhatsApp.</p>
+
+                <form id="whatsapp-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="e.g. Earnest" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Your phone number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="e.g. 07XXXXXXXX" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit">Send using WhatsApp</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="social-links" aria-label="Social media links">
+            <p>Connect with me</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer">X</a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Earnest. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
