@@ -1,169 +1,383 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Earnest's personal web development portfolio.">
-    <title>Earnest Portfolio</title>
+
+    <title>Earnest Kariuki | Web Developer Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="site-header">
-        <a class="logo" href="#home">Earnest Portfolio</a>
 
-        <nav aria-label="Main navigation">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- NAVIGATION -->
+<header class="header">
+    <a href="#home" class="logo">earnest<span>.</span></a>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="hero-glass">
-                <h1>Welcome! My name is Earnest.</h1>
-                <p>Explore my website and learn more about my work.</p>
-                <p class="hero-caption">I am Earnest, and welcome to my website.</p>
-                <a class="button-link" href="#about">Explore my website</a>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Expertise</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <a href="#contact" class="header-button">Let's Talk ↗</a>
+</header>
+
+<main>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+
+    <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PERSONAL WEBSITE</p>
+
+        <h1>
+            Building digital
+            experiences that
+            <span>make a difference.</span>
+        </h1>
+
+        <p class="hero-description">
+            Hello! I'm Earnest, a beginner web developer
+            passionate about web design, technology and
+            creating beautiful digital experiences.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#portfolio" class="primary-button">
+                Explore my work ↗
+            </a>
+
+            <a href="#about" class="text-button">
+                More about me →
+            </a>
+        </div>
+
+        <p class="availability">
+            <span class="status-dot"></span>
+            Learning, creating and growing every day.
+        </p>
+    </div>
+
+    <div class="hero-image">
+        <img
+            src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg"
+            alt="Earnest portfolio profile image">
+    </div>
+
+</section>
+
+<!-- INTRODUCTION -->
+<section class="intro-section" id="about">
+
+    <p class="eyebrow">01 / ABOUT ME</p>
+
+    <div class="intro-grid">
+
+        <h2>
+            A curious mind with
+            a passion for
+            <span>technology.</span>
+        </h2>
+
+        <div class="intro-text">
+            <p>
+                My name is Earnest. I am a beginner web developer
+                who enjoys learning how websites work and how
+                technology can solve everyday problems.
+            </p>
+
+            <p>
+                I am currently developing my skills in HTML,
+                CSS, JavaScript and other digital technologies.
+                My goal is to build professional websites
+                for individuals and businesses.
+            </p>
+
+            <a href="#contact" class="underlined-link">
+                Get in touch ↗
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- EXPERTISE -->
+<section id="skills" class="expertise-section">
+
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">02 / WHAT I DO</p>
+            <h2>My expertise</h2>
+        </div>
+
+        <p>
+            Skills I am learning and developing
+            as I grow in technology.
+        </p>
+    </div>
+
+    <div class="expertise-grid">
+
+        <article class="expertise-card">
+            <span class="number">01</span>
+            <h3>Web Design</h3>
+            <p>
+                Creating attractive and organized
+                website layouts using HTML and CSS.
+            </p>
+            <span class="card-arrow">↗</span>
+        </article>
+
+        <article class="expertise-card">
+            <span class="number">02</span>
+            <h3>Frontend Development</h3>
+            <p>
+                Learning to build responsive websites
+                using HTML, CSS and JavaScript.
+            </p>
+            <span class="card-arrow">↗</span>
+        </article>
+
+        <article class="expertise-card">
+            <span class="number">03</span>
+            <h3>UI/UX Design</h3>
+            <p>
+                Exploring user-friendly layouts
+                and attractive digital interfaces.
+            </p>
+            <span class="card-arrow">↗</span>
+        </article>
+
+        <article class="expertise-card">
+            <span class="number">04</span>
+            <h3>SEO</h3>
+            <p>
+                Learning how websites become easier
+                to discover through search engines.
+            </p>
+            <span class="card-arrow">↗</span>
+        </article>
+
+        <article class="expertise-card">
+            <span class="number">05</span>
+            <h3>Data Analytics</h3>
+            <p>
+                Exploring data organization,
+                analysis and presentation using Excel.
+            </p>
+            <span class="card-arrow">↗</span>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="projects-section">
+
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">03 / SELECTED WORK</p>
+            <h2>My projects</h2>
+        </div>
+
+        <p>
+            A collection of projects that represent
+            my learning journey.
+        </p>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+            <div class="project-image">
+                <img
+                    src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg"
+                    alt="Web design project">
             </div>
-        </section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I enjoy learning, building websites, and having fun along the way.</p>
-            <p>If you have a question, feel free to contact me.</p>
-            <a class="button-link" href="#contact">Contact me</a>
-        </section>
+            <div class="project-info">
+                <div>
+                    <p class="project-category">WEB DESIGN</p>
+                    <h3>Website Design</h3>
+                </div>
 
-        <section id="skills">
-            <h2>My Skills</h2>
-            <p>I am a beginner web developer and look forward to building websites for businesses.</p>
-
-            <div class="card-grid">
-                <article class="skill-card">
-                    <div class="image">
-                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Web design example">
-                    </div>
-                    <h3>Web Design</h3>
-                    <p>I use HTML and CSS to create and style websites.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="image">
-                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Frontend development example">
-                    </div>
-                    <h3>Frontend Development</h3>
-                    <p>I build website pages using HTML, CSS, and JavaScript.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="image">
-                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="UI and UX design example">
-                    </div>
-                    <h3>UI/UX Design</h3>
-                    <p>I aim to make websites clear, attractive, and easy to use.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="image">
-                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Search engine optimisation example">
-                    </div>
-                    <h3>SEO</h3>
-                    <p>I am learning how websites can become easier to find in search engines.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="image">
-                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Data analytics example">
-                    </div>
-                    <h3>Data Analytics</h3>
-                    <p>I present and analyse information using tools such as Microsoft Excel.</p>
-                </article>
+                <span>↗</span>
             </div>
-        </section>
 
-        <section id="portfolio">
-            <h2>My Portfolio</h2>
-            <p>Here are some examples of projects I am working on.</p>
+            <p>
+                A website design project created
+                using HTML and CSS.
+            </p>
+        </article>
 
-            <div class="card-grid">
-                <article class="skill-card">
-                    <div class="image">
-                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Web design project preview">
-                    </div>
-                    <h3>Web Design Project</h3>
-                    <p>A sample website designed using HTML and CSS.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="image">
-                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Frontend project preview">
-                    </div>
-                    <h3>Frontend Project</h3>
-                    <p>A responsive website built using HTML and CSS.</p>
-                </article>
-
-                <article class="skill-card">
-                    <div class="image">
-                        <img src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg" alt="Data analytics project preview">
-                    </div>
-                    <h3>Data Analytics Project</h3>
-                    <p>Data presentation and analysis using Microsoft Excel.</p>
-                </article>
+        <article class="project-card">
+            <div class="project-image">
+                <img
+                    src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg"
+                    alt="Frontend development project">
             </div>
-        </section>
 
-        <section id="contact">
-            <div class="contact-form">
-                <h2>Get in Touch</h2>
-                <p>Use the form below to prepare a message to send through WhatsApp.</p>
+            <div class="project-info">
+                <div>
+                    <p class="project-category">DEVELOPMENT</p>
+                    <h3>Frontend Website</h3>
+                </div>
 
-                <form id="whatsapp-form">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="e.g. Earnest" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="phone">Your phone number</label>
-                        <input type="tel" id="phone" name="phone" placeholder="e.g. 07XXXXXXXX" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
-                    </div>
-
-                    <button type="submit">Send using WhatsApp</button>
-                </form>
+                <span>↗</span>
             </div>
-        </section>
 
-        <section class="social-links" aria-label="Social media links">
-            <p>Connect with me</p>
-            <div class="social-icons">
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer">X</a>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a>
-                <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <p>
+                A responsive website project
+                developed as part of my learning journey.
+            </p>
+        </article>
+
+        <article class="project-card">
+            <div class="project-image">
+                <img
+                    src="https://i.ibb.co/5Xk2tgyf/Whats-App-Image-2026-10-26-at-08-21-08.jpg"
+                    alt="Data analytics project">
             </div>
-        </section>
-    </main>
 
-    <footer>
+            <div class="project-info">
+                <div>
+                    <p class="project-category">DATA ANALYTICS</p>
+                    <h3>Data Presentation</h3>
+                </div>
+
+                <span>↗</span>
+            </div>
+
+            <p>
+                An exploration of data organization
+                and presentation using Microsoft Excel.
+            </p>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- LEARNING JOURNEY -->
+<section class="journey-section">
+
+    <p class="eyebrow">04 / MY JOURNEY</p>
+
+    <h2>
+        Learning today.
+        <span>Building tomorrow.</span>
+    </h2>
+
+    <p>
+        Every project is an opportunity to learn
+        something new. I am committed to improving
+        my skills and creating better digital experiences.
+    </p>
+
+    <a href="#contact" class="primary-button">
+        Work with me ↗
+    </a>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+
+    <div class="contact-heading">
+        <p class="eyebrow">05 / GET IN TOUCH</p>
+
+        <h2>
+            Have a project
+            in mind?
+            <span>Let's talk.</span>
+        </h2>
+
+        <p>
+            Have a question or an idea?
+            Send me a message.
+        </p>
+    </div>
+
+    <form id="whatsapp-form">
+
+        <div class="input-group">
+            <label for="name">Your name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required>
+        </div>
+
+        <div class="input-group">
+            <label for="phone">Phone number</label>
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number"
+                required>
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email address</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required>
+        </div>
+
+        <div class="input-group">
+            <label for="message">Your message</label>
+            <textarea
+                id="message"
+                placeholder="Tell me about your idea..."
+                required></textarea>
+        </div>
+
+        <button type="submit" class="primary-button">
+            Send message ↗
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <a href="#home" class="logo">earnest<span>.</span></a>
+
+    <p>
+        Learning, creating and building
+        one project at a time.
+    </p>
+
+    <div class="social-links">
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://x.com/">X</a>
+        <a href="https://www.youtube.com/">YouTube</a>
+        <a href="https://www.tiktok.com/">TikTok</a>
+    </div>
+
+    <div class="footer-bottom">
         <p>&copy; 2026 Earnest. All rights reserved.</p>
-    </footer>
+        <a href="#home">Back to top ↑</a>
+    </div>
 
-    <script src="script.js"></script>
+</footer>
+
 </body>
 </html>
